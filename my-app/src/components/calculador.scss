@@ -1,0 +1,42 @@
+.calculadora{
+    width: 20vw;
+    display: grid;
+    border-radius: 10px;
+    width: 20vw;
+    height: 20vh;
+    background: rgb(86, 189, 236);
+    grid-template-columns: 20% 40% 35% 5%;
+    grid-template-rows: 49.5% 49.5%;
+    grid-template-areas: '. spam mais . '
+                         '. spam menos .' ,
+    ;
+    span{
+        grid-area: spam;
+            font-size: 7rem;
+            font-weight: 400;
+            
+        
+    }
+
+    
+    #mais{
+        grid-area: mais;
+        width: 6vw;
+        height: 8vh;
+        font-size: 2rem;
+        border: 0;
+        border-radius: 5px;
+        background: rgb(214, 115, 33);
+    }
+    
+    
+    #menos{
+        grid-area: menos;
+        width: 6vw;
+        height: 8vh;
+        font-size: 2rem;
+        border: 0;
+        border-radius: 5px;
+        background: rgb(214, 115, 33);
+    }
+}
